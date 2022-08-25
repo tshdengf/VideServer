@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ThreadPool.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadConfigFile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerFrame.cpp">
+      <Filter>Controller\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoServerController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="LibeventServer.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="IRequestHandle.cpp">
+      <Filter>Service\inteface</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnectionPool.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoServerDao.cpp">
+      <Filter>Dao</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartBeatService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="UpLoadFileService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHanleService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GetVideoService.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{138c8c43-a456-4351-98d6-4cdf2065bdd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\interface">
+      <UniqueIdentifier>{28c77982-d06e-4584-baa0-840c55a540fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{4093cc8a-9f3f-4cd2-a847-16f128e35149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{9a01b6f4-a47d-4118-931f-ca732f0a4b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service\inteface">
+      <UniqueIdentifier>{d87c003c-dca4-4174-8d36-8cda2208411d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dao">
+      <UniqueIdentifier>{a7ba4346-b762-490d-ac9b-3cd1d8774412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{5264e310-9c8a-4df5-ba0d-64b76c96afb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadConfigFile.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerFrame.h">
+      <Filter>Controller\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientInfo.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoServerController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="LibeventServer.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessArg.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IRequestHandle.h">
+      <Filter>Service\inteface</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgHeader.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConnectionPool.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoServerDao.h">
+      <Filter>Dao</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartBeatService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="UpLoadFileService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHanleService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GetVideoService.h">
+      <Filter>Service</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
